@@ -18,7 +18,7 @@ while True:
     cfg = config.Config(
         i2c = {
             "port": port, # I2C bus number
-            "device": "smbus",
+            "device": "hid",
         },
 
 	    bus = [
