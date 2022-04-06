@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/github/workspace/hw/sch_pcb/LION2CELL01D.kicad_sch</source>
+    <date>Wed Apr  6 13:11:32 2022</date>
+    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Li-ion battery managment</title>
+        <company>jacho &lt;jacho@mlab.cz&gt;</company>
+        <rev>D</rev>
+        <date>2021-06-02</date>
+        <source>LION2CELL01D.kicad_sch</source>
+        <comment number="1" value="Battery power supply"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>2x18650_LION-RESCUE-LION2CELL01C</value>
+      <footprint>Mlab_Batery:2LION</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="2x18650_LION-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000564c3067</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055332e89</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>47uF</value>
+      <footprint>Mlab_C:TantalC_SizeC_Reflow</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="CP2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055326f4c</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055327031</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055332719</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>330nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055332e36</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553278a0</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553278e9</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055333807</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055329649</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100uF</value>
+      <footprint>Mlab_C:TantalC_SizeD_Reflow</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="CP2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553295c4</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005532af06</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055356934</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055342094</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>1uF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005534ae9c</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553427f9</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005534275c</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>3n3</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005535149c</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055340845</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>100nF</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005695fcc7</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>10uF</value>
+      <footprint>Mlab_C:TantalC_SizeB_Reflow</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="CP2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005697b5da</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>M4</value>
+      <footprint>Mlab_D:SMA_Standard</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="DIODE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055326ed7</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>M4</value>
+      <footprint>Mlab_D:SMA_Standard</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="DIODE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005532d00e</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>Green</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055327099</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>Green</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055327102</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>Red</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055327171</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>ORAGE</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533b6a6</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>ORAGE</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533d3c7</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>ORAGE</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533d416</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>ORAGE</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533d5c2</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>ORAGE</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533d613</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>ORAGE</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533d669</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>ORAGE</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533d6bc</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>ORAGE</value>
+      <footprint>Mlab_D:LED_1206</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005547b9f6</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>5A</value>
+      <footprint>Mlab_F:Drzak_2410</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="FUSE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005532ca08</tstamps>
+    </comp>
+    <comp ref="F3">
+      <value>2A</value>
+      <footprint>Mlab_F:Drzak_2410</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="FUSE" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000563f594a</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>JUMP_4X2</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="JUMP_4X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553271e5</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005532827f</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553283d6</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>JUMP2_2x1</value>
+      <libsource lib="LION2CELL01D-rescue" part="JUMP2_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056be22db</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553285e1</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055328809</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>JUMP_4X2</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="JUMP_4X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055364ed6</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Con:WAGO256</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055365a67</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>CONN1_1</value>
+      <footprint>Mlab_Con:WAGO256</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="CONN1_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055365eed</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005532725c</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005535c6ab</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005535c723</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>JUMP_4X2</value>
+      <footprint>Mlab_Pin_Headers:Straight_2x04</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="JUMP_4X2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005532b4d9</tstamps>
+    </comp>
+    <comp ref="J14">
+      <value>JUMP_2x1</value>
+      <footprint>Mlab_Pin_Headers:Straight_1x02</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="JUMP_2x1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055365343</tstamps>
+    </comp>
+    <comp ref="J15">
+      <value>CONN_2</value>
+      <footprint>Mlab_Pin_Headers:SMD_1_2x2</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="CONN_2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000566001cc</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>DE1205-10</value>
+      <footprint>Mlab_L:DE1205-10</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="INDUCTOR_SMALL" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055329331</tstamps>
+    </comp>
+    <comp ref="P1">
+      <value>_</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="_" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055365894</tstamps>
+    </comp>
+    <comp ref="P2">
+      <value>_</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="_" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055365972</tstamps>
+    </comp>
+    <comp ref="P3">
+      <value>_</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="_" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553659de</tstamps>
+    </comp>
+    <comp ref="P4">
+      <value>_</value>
+      <footprint>Mlab_Mechanical:MountingHole_3mm</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="_" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055365a4d</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>IRLML6244</value>
+      <footprint>Mlab_T:SOT-23</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="MOSFET-N" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055334750</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>160R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005532745e</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>260R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533362d</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533367d</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553286a8</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055327060</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>2K2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553273d1</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>2K2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055327407</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>2K2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055327431</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>100R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055333ac0</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1K</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533b935</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>7K5</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055329993</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>7K5</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553299f8</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>9K31</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553294ae</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>442K</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055329d9b</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>NCP21XV103J03RA</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005532a4fe</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>0R1</value>
+      <footprint>Resistors_SMD:R_2512</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005532ac71</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10K NTC</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055349f86</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553424f0</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>100R</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553426f2</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1K</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005534b924</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>270k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005699b3a4</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>0R01 75PPM</value>
+      <footprint>Mlab_R:SMD-2512</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553309c6</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>16k5 25ppm</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553511e2</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>140k .1% 25ppm</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055351177</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>270k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000056965e5e</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>165k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000569713a9</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>2K2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533ae30</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>2K2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533b2b7</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>2K2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533b2ff</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>2K2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533b34c</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>2K2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533b398</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>2K2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533b3e7</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>2K2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533b433</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>2K2</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005547b85d</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>47k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005695debd</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>47k</value>
+      <footprint>Mlab_R:SMD-0805</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005695f1af</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_PUSH</value>
+      <footprint>Mlab_SW:SW_PUSH_SMALL</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="SW_PUSH" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005534c242</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>BQ29209</value>
+      <footprint>Mlab_IO:VSON-8</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/bq29209.pdf</datasheet>
+      <libsource lib="LION2CELL01D-rescue" part="BQ29209" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055330527</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>BQ24103</value>
+      <footprint>Mlab_IO:VQFN-20</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="BQ24103" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000055326e8c</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>BQ34Z100</value>
+      <footprint>Mlab_IO:TSSOP-14_4.4x5mm_Pitch0.65mm</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="BQ34Z100" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000553390be</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>SN74HC164D</value>
+      <footprint>Mlab_IO:SO-14</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="SN74HC164D" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005533a2f6</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>TPS76601</value>
+      <footprint>Mlab_IO:SO-8</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="TPS76601" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005695992b</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>APX810-31SAG-7</value>
+      <footprint>Mlab_IO:SOT-23</footprint>
+      <libsource lib="LION2CELL01D-rescue" part="APX810-31SAG-7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="LION2CELL01D.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000569ea20b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="LION2CELL01D-rescue" part="2x18650_LION-RESCUE-LION2CELL01C">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">2x18650_LION-RESCUE-LION2CELL01C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="" type="unspecified"/>
+        <pin num="3" name="" type="unspecified"/>
+        <pin num="4" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="APX810-31SAG-7">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">APX810-31SAG-7</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="unspecified"/>
+        <pin num="2" name="Reset" type="bidirectional"/>
+        <pin num="3" name="Vcc" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="BQ24103">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ24103</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="unspecified"/>
+        <pin num="2" name="STAT1" type="unspecified"/>
+        <pin num="3" name="IN" type="unspecified"/>
+        <pin num="4" name="IN" type="unspecified"/>
+        <pin num="5" name="PG" type="unspecified"/>
+        <pin num="6" name="VCC" type="unspecified"/>
+        <pin num="7" name="TTC" type="unspecified"/>
+        <pin num="8" name="ISET1" type="unspecified"/>
+        <pin num="9" name="ISET2" type="unspecified"/>
+        <pin num="10" name="VSS" type="unspecified"/>
+        <pin num="11" name="VTSB" type="unspecified"/>
+        <pin num="12" name="TS" type="unspecified"/>
+        <pin num="13" name="CELLS" type="unspecified"/>
+        <pin num="14" name="BAT" type="unspecified"/>
+        <pin num="15" name="SNS" type="unspecified"/>
+        <pin num="16" name="CE" type="unspecified"/>
+        <pin num="17" name="PGND" type="unspecified"/>
+        <pin num="18" name="PGND" type="unspecified"/>
+        <pin num="19" name="STAT2" type="unspecified"/>
+        <pin num="20" name="OUT" type="unspecified"/>
+        <pin num="21" name="pgnd" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="BQ29209">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ29209</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VC2" type="unspecified"/>
+        <pin num="2" name="VC1" type="unspecified"/>
+        <pin num="3" name="VC1_CB" type="unspecified"/>
+        <pin num="4" name="CD" type="unspecified"/>
+        <pin num="5" name="GND" type="unspecified"/>
+        <pin num="6" name="CB_EN" type="unspecified"/>
+        <pin num="7" name="VDD" type="power_in"/>
+        <pin num="8" name="OUT" type="unspecified"/>
+        <pin num="9" name="GND" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="BQ34Z100">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BQ34Z100</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P2" type="unspecified"/>
+        <pin num="2" name="VEN" type="unspecified"/>
+        <pin num="3" name="P1" type="unspecified"/>
+        <pin num="4" name="BAT" type="unspecified"/>
+        <pin num="5" name="CE" type="unspecified"/>
+        <pin num="6" name="REGIN" type="unspecified"/>
+        <pin num="7" name="REG25" type="unspecified"/>
+        <pin num="8" name="VSS" type="unspecified"/>
+        <pin num="9" name="SRP" type="unspecified"/>
+        <pin num="10" name="SRN" type="unspecified"/>
+        <pin num="11" name="P6/TS" type="unspecified"/>
+        <pin num="12" name="P5/HDQ" type="unspecified"/>
+        <pin num="13" name="P4/SCL" type="unspecified"/>
+        <pin num="14" name="P3/SDA" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="C-RESCUE-LION2CELL01C">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-RESCUE-LION2CELL01C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="CONN1_1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN1_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="CONN_2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="CP2">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="DIODE">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="INDUCTOR_SMALL">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="JUMP2_2x1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP2_2x1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="JUMP_2x1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_2x1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="JUMP_4X2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JUMP_4X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="2" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="4" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="5" type="passive"/>
+        <pin num="7" name="8" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="LED-RESCUE-LION2CELL01C">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-LION2CELL01C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="MOSFET-N">
+      <footprints>
+        <fp>TO92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MOSFET-N</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="R-RESCUE-LION2CELL01C">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-RESCUE-LION2CELL01C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="SN74HC164D">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HC164D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="unspecified"/>
+        <pin num="2" name="B" type="unspecified"/>
+        <pin num="3" name="QA" type="unspecified"/>
+        <pin num="4" name="QB" type="unspecified"/>
+        <pin num="5" name="QC" type="unspecified"/>
+        <pin num="6" name="QD" type="unspecified"/>
+        <pin num="7" name="GND" type="unspecified"/>
+        <pin num="8" name="CLK" type="unspecified"/>
+        <pin num="9" name="CLR" type="unspecified"/>
+        <pin num="10" name="QE" type="unspecified"/>
+        <pin num="11" name="QF" type="unspecified"/>
+        <pin num="12" name="QG" type="unspecified"/>
+        <pin num="13" name="QH" type="unspecified"/>
+        <pin num="14" name="VCC" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="SW_PUSH">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_PUSH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="TPS76601">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS76601</field>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="unspecified"/>
+        <pin num="2" name="PG" type="unspecified"/>
+        <pin num="3" name="GND" type="unspecified"/>
+        <pin num="4" name="/EN" type="unspecified"/>
+        <pin num="5" name="IN" type="unspecified"/>
+        <pin num="6" name="IN" type="unspecified"/>
+        <pin num="7" name="OUT" type="unspecified"/>
+        <pin num="8" name="OUT" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="LION2CELL01D-rescue" part="_">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">_</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries/>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="CE" pintype="unspecified"/>
+      <node ref="U3" pin="6" pinfunction="REGIN" pintype="unspecified"/>
+      <node ref="U4" pin="14" pinfunction="VCC" pintype="unspecified"/>
+      <node ref="U4" pin="9" pinfunction="CLR" pintype="unspecified"/>
+      <node ref="U5" pin="7" pinfunction="OUT" pintype="unspecified"/>
+      <node ref="U5" pin="8" pinfunction="OUT" pintype="unspecified"/>
+    </net>
+    <net code="2" name="/BAT+">
+      <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="input"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U5" pin="5" pinfunction="IN" pintype="unspecified"/>
+      <node ref="U5" pin="6" pinfunction="IN" pintype="unspecified"/>
+    </net>
+    <net code="3" name="/BAT-MIDPOINT">
+      <node ref="BT1" pin="2" pintype="unspecified"/>
+      <node ref="BT1" pin="3" pintype="unspecified"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="Vcc" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/BATTERY+">
+      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="input"/>
+      <node ref="F3" pin="2" pintype="input"/>
+      <node ref="J7" pin="3" pinfunction="4" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="5" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="Q1" pin="D" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="5" name="/BATTERY-">
+      <node ref="BT1" pin="4" pinfunction="-" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/CB_EN">
+      <node ref="J15" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="CB_EN" pintype="unspecified"/>
+      <node ref="U6" pin="2" pinfunction="Reset" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/CE">
+      <node ref="J5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="CE" pintype="unspecified"/>
+    </net>
+    <net code="8" name="/CMODE">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="TTC" pintype="unspecified"/>
+    </net>
+    <net code="9" name="/HDQ">
+      <node ref="J12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="P5/HDQ" pintype="unspecified"/>
+    </net>
+    <net code="10" name="/P1">
+      <node ref="U3" pin="3" pinfunction="P1" pintype="unspecified"/>
+      <node ref="U4" pin="1" pinfunction="A" pintype="unspecified"/>
+      <node ref="U4" pin="2" pinfunction="B" pintype="unspecified"/>
+    </net>
+    <net code="11" name="/P2">
+      <node ref="U3" pin="1" pinfunction="P2" pintype="unspecified"/>
+      <node ref="U4" pin="8" pinfunction="CLK" pintype="unspecified"/>
+    </net>
+    <net code="12" name="/PG">
+      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="PG" pintype="unspecified"/>
+    </net>
+    <net code="13" name="/SCL">
+      <node ref="J11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="P4/SCL" pintype="unspecified"/>
+    </net>
+    <net code="14" name="/SDA">
+      <node ref="J10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="P3/SDA" pintype="unspecified"/>
+    </net>
+    <net code="15" name="/STAT1">
+      <node ref="D5" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="STAT1" pintype="unspecified"/>
+    </net>
+    <net code="16" name="/STAT2">
+      <node ref="D4" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="STAT2" pintype="unspecified"/>
+    </net>
+    <net code="17" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="8" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J13" pin="1" pinfunction="2" pintype="passive"/>
+      <node ref="J13" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J13" pin="7" pinfunction="8" pintype="passive"/>
+      <node ref="J13" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J14" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="J15" pin="2" pinfunction="PM" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="1" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J7" pin="7" pinfunction="8" pintype="passive"/>
+      <node ref="J7" pin="8" pinfunction="8" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="P1" pintype="passive"/>
+      <node ref="Q1" pin="S" pinfunction="S" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U1" pin="9" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U2" pin="10" pinfunction="VSS" pintype="unspecified"/>
+      <node ref="U2" pin="17" pinfunction="PGND" pintype="unspecified"/>
+      <node ref="U2" pin="18" pinfunction="PGND" pintype="unspecified"/>
+      <node ref="U2" pin="21" pinfunction="pgnd" pintype="unspecified"/>
+      <node ref="U3" pin="8" pinfunction="VSS" pintype="unspecified"/>
+      <node ref="U4" pin="7" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U5" pin="3" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U5" pin="4" pinfunction="/EN" pintype="unspecified"/>
+      <node ref="U6" pin="1" pinfunction="GND" pintype="unspecified"/>
+    </net>
+    <net code="18" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VC1" pintype="unspecified"/>
+    </net>
+    <net code="19" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="5" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="IN" pintype="unspecified"/>
+      <node ref="U2" pin="4" pinfunction="IN" pintype="unspecified"/>
+      <node ref="U2" pin="6" pinfunction="VCC" pintype="unspecified"/>
+    </net>
+    <net code="20" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VC2" pintype="unspecified"/>
+    </net>
+    <net code="21" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="CD" pintype="unspecified"/>
+    </net>
+    <net code="22" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="23" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="VTSB" pintype="unspecified"/>
+    </net>
+    <net code="24" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="J13" pin="3" pinfunction="4" pintype="passive"/>
+      <node ref="J13" pin="4" pinfunction="4" pintype="passive"/>
+      <node ref="J13" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J13" pin="6" pinfunction="5" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="SNS" pintype="unspecified"/>
+    </net>
+    <net code="25" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="SRP" pintype="unspecified"/>
+    </net>
+    <net code="26" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="SRN" pintype="unspecified"/>
+    </net>
+    <net code="27" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="REG25" pintype="unspecified"/>
+    </net>
+    <net code="28" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="BAT" pintype="unspecified"/>
+    </net>
+    <net code="29" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D5-Pad1)">
+      <node ref="D5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D11-Pad2)">
+      <node ref="D11" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D13-Pad2)">
+      <node ref="D13" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(D14-Pad2)">
+      <node ref="D14" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(F3-Pad1)">
+      <node ref="F3" pin="1" pintype="input"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="BAT" pintype="unspecified"/>
+    </net>
+    <net code="41" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="OUT" pintype="unspecified"/>
+      <node ref="U2" pin="20" pinfunction="OUT" pintype="unspecified"/>
+    </net>
+    <net code="42" name="Net-(Q1-PadG)">
+      <node ref="Q1" pin="G" pinfunction="G" pintype="input"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VC1_CB" pintype="unspecified"/>
+    </net>
+    <net code="44" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="CELLS" pintype="unspecified"/>
+    </net>
+    <net code="45" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="OUT" pintype="unspecified"/>
+    </net>
+    <net code="46" name="Net-(R11-Pad1)">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="ISET2" pintype="unspecified"/>
+    </net>
+    <net code="47" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="ISET1" pintype="unspecified"/>
+    </net>
+    <net code="48" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="TS" pintype="unspecified"/>
+    </net>
+    <net code="49" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="P6/TS" pintype="unspecified"/>
+    </net>
+    <net code="50" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="FB" pintype="unspecified"/>
+    </net>
+    <net code="52" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="QA" pintype="unspecified"/>
+    </net>
+    <net code="53" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="QB" pintype="unspecified"/>
+    </net>
+    <net code="54" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="QC" pintype="unspecified"/>
+    </net>
+    <net code="55" name="Net-(R30-Pad2)">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="QD" pintype="unspecified"/>
+    </net>
+    <net code="56" name="Net-(R31-Pad2)">
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="QE" pintype="unspecified"/>
+    </net>
+    <net code="57" name="Net-(R32-Pad2)">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="QF" pintype="unspecified"/>
+    </net>
+    <net code="58" name="Net-(R33-Pad2)">
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="QG" pintype="unspecified"/>
+    </net>
+    <net code="59" name="Net-(R34-Pad2)">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="QH" pintype="unspecified"/>
+    </net>
+    <net code="60" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="VEN" pintype="unspecified"/>
+    </net>
+    <net code="61" name="unconnected-(P1-Pad1)">
+      <node ref="P1" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="62" name="unconnected-(P2-Pad1)">
+      <node ref="P2" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="63" name="unconnected-(P3-Pad1)">
+      <node ref="P3" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="64" name="unconnected-(P4-Pad1)">
+      <node ref="P4" pin="1" pinfunction="P1" pintype="passive"/>
+    </net>
+    <net code="65" name="unconnected-(U5-Pad2)">
+      <node ref="U5" pin="2" pinfunction="PG" pintype="unspecified+no_connect"/>
+    </net>
+  </nets>
+</export>
