@@ -2,17 +2,17 @@
 <export version="E">
   <design>
     <source>/github/workspace/hw/sch_pcb/LION2CELL01D.kicad_sch</source>
-    <date>Wed Apr  6 13:11:32 2022</date>
+    <date>Wed Jul 20 11:29:10 2022</date>
     <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>Li-ion battery managment</title>
+        <title>LION2CELL01D</title>
         <company>jacho &lt;jacho@mlab.cz&gt;</company>
         <rev>D</rev>
         <date>2021-06-02</date>
         <source>LION2CELL01D.kicad_sch</source>
-        <comment number="1" value="Battery power supply"/>
-        <comment number="2" value=""/>
+        <comment number="1" value=""/>
+        <comment number="2" value="2-cell Li-ion Battery Managment System"/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
         <comment number="5" value=""/>
