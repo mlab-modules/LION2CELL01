@@ -34,6 +34,7 @@ images:
 issues: 0
 mark: 50
 mod_scheme: doc/gen/LION2CELL01D-schematic.pdf
+status: 0
 tags:
 - battery
 - battery-management-system
