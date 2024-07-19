@@ -1,0 +1,23 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+"BT1","2x18650_LION-RESCUE-LION2CELL01C","2LION",40.5765,30.8610,0.0000,top
+"J1","JUMP_4X2","Straight_2x04",15.7480,55.8800,-90.0000,top
+"J2","JUMP_2x1","Straight_1x02",49.0220,55.6260,0.0000,top
+"J3","JUMP_2x1","Straight_1x02",38.8620,55.6260,180.0000,top
+"J4","JUMP2_2x1","Straight_1x02",43.9420,55.6260,180.0000,top
+"J5","JUMP_2x1","Straight_1x02",46.4820,55.6260,0.0000,top
+"J6","JUMP_2x1","Straight_1x02",41.4020,55.6260,0.0000,top
+"J7","JUMP_4X2","Straight_2x04",35.5600,5.0800,90.0000,top
+"J8","CONN1_1","WAGO256",17.3990,7.8740,0.0000,top
+"J9","CONN1_1","WAGO256",17.3990,2.9210,0.0000,top
+"J10","JUMP_2x1","Straight_1x02",62.8650,53.7210,0.0000,top
+"J11","JUMP_2x1","Straight_1x02",65.4050,53.7210,0.0000,top
+"J12","JUMP_2x1","Straight_1x02",67.9450,53.7210,0.0000,top
+"J13","JUMP_4X2","Straight_2x04",55.8800,55.6260,-90.0000,top
+"J14","JUMP_2x1","Straight_1x02",70.4850,53.7210,0.0000,top
+"P1","_","MountingHole_3mm",76.2000,5.0800,0.0000,top
+"P2","_","MountingHole_3mm",5.0800,55.8800,0.0000,top
+"P3","_","MountingHole_3mm",5.0800,5.0800,0.0000,top
+"P4","_","MountingHole_3mm",76.2000,55.8800,0.0000,top
+"R15","NCP21XV103J03RA","SMD-0805",12.8270,40.3860,0.0000,top
+"R17","10K NTC","SMD-0805",68.4530,21.0820,180.0000,top
+"SW1","SW_PUSH","SW_PUSH_SMALL",67.1830,5.5880,0.0000,top
