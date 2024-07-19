@@ -28,13 +28,18 @@ images:
 - doc/img/FLIR/FLIR0209.jpg
 - doc/img/FLIR/FLIR0214.jpg
 - doc/img/FLIR/FLIR0211.jpg
-- doc/gen/img/LION2CELL01D-top.png
-- doc/gen/img/LION2CELL01D-bottom.png
+- doc/gen/img/LION2CELL01-bottom.png
+- doc/gen/img/LION2CELL01-top.png
 - doc/img/LION2CELL01D_QRcode.png
-- doc/gen/LION2CELL01D-schematic.svg
+- hw/cam_profi/assembly/LION2CELL01-assembly_page_01.svg
+- hw/cam_profi/assembly/LION2CELL01-assembly_page_02.svg
+- doc/gen/LION2CELL01-schematic.svg
+- doc/gen/img/LION2CELL01-bottom.svg
+- doc/gen/img/LION2CELL01-top.svg
 issues: 0
 mark: 50
-mod_scheme: doc/gen/LION2CELL01D-schematic.pdf
+mod_ibom: hw/cam_profi/LION2CELL01-ibom.html
+mod_scheme: doc/gen/LION2CELL01-schematic.pdf
 status: 2
 tags:
 - battery
@@ -50,4 +55,4 @@ tags:
 - bms
 - power-supply
 title: LION2CELL01
-updated: '2024-07-19T15:31:19.602128+00:00'
+updated: '2024-07-19T15:33:24.813134+00:00'
