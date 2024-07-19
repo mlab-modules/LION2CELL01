@@ -42,13 +42,12 @@ tags:
 - charger
 - i2c
 - li-ion-battery
-- temperature
 - mlab
 - mlab-module
 - kicad
-- kicad-pcb
 - kicad-project
 - mlab-kicad
-- pcb
+- bms
+- power-supply
 title: LION2CELL01
-updated: '2024-07-17T14:54:52.988031+00:00'
+updated: '2024-07-19T15:31:19.602128+00:00'
